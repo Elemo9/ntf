@@ -8,7 +8,7 @@ import { fadeIn } from '../../../lib/variants';
 
 export default function ForExhibitors() {
   return (
-    <div className='h-fit py-16 w-full flex items-center justify-center bg-white'>
+    <div className='h-fit py-32 w-full flex items-center justify-center bg-white'>
         <div className='flex max-lg:flex-col max-lg:gap-6 h-fit justify-between w-[80%] mx-auto'>
             <div className='w-[48%] max-lg:w-full flex flex-col gap-3'>
                 <motion.h2 

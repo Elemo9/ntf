@@ -9,8 +9,8 @@ import { fadeIn } from '../../../lib/variants';
 
 export default function Footer() {
   return (
-    <div className='h-fit py-16 w-full flex items-center justify-center bg-black'>
-        <div className='h-fit flex max-lg:flex-col max-xl:gap-8 justify-center items-center w-[80%] mx-auto'>
+    <div className='h-fit py-24 w-full flex items-center justify-center bg-black'>
+        <div className='h-[600px] flex max-lg:flex-col max-xl:gap-8 justify-center items-center w-[80%] mx-auto'>
 
             <motion.div 
                 variants={fadeIn("up", 0.2)}
@@ -47,7 +47,7 @@ export default function Footer() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false, amount:0.3}}
-                className='w-[23%] max-lg:w-full flex flex-col gap-5 h-full'>
+                className='w-[23%] max-lg:w-full flex flex-col gap-5 h-full justify-start items-start'>
                 <h3 className='text-2xl font-semibold text-white uppercase tracking-widest'>Contact Us</h3>
                 <p className='text-white'>Tel: 08138679921</p>
                 <p className='text-white'>Email: Yemvalen@yahoo.com</p>
