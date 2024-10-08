@@ -10,14 +10,14 @@ import { fadeIn } from '../../../lib/variants';
 export default function Footer() {
   return (
     <div className='h-fit py-24 w-full flex items-center justify-center bg-black'>
-        <div className='h-[600px] flex max-lg:flex-col max-xl:gap-8 justify-center items-center w-[80%] mx-auto'>
+        <div className='h-[300px] max-xl:h-fit max-xl:gap-8 flex max-xl:flex-col justify-center items-center w-[85%] mx-auto'>
 
             <motion.div 
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false, amount:0.3}}
-                className='w-[23%] max-lg:w-full h-full flex flex-col gap-5 '>
+                className='w-[23%] max-xl:w-full h-full flex flex-col gap-5 '>
                 <h2 className='uppercase text-4xl font-semibold'><span className='text-red-500'>Naija</span><span className='text-green-500'>Tech</span><span className='text-yellow-500'>Fair</span></h2>
                 <div className='flex flex-col gap-4'>
                     <h3 className='text-white text-xl tracking-widest uppercase'>Social Handles</h3>
@@ -37,9 +37,9 @@ export default function Footer() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false, amount:0.3}}
-                className='w-[23%] max-lg:w-full flex flex-col gap-5 h-full'>
+                className='w-[23%] max-xl:w-full flex flex-col gap-5 h-full'>
                 <h3 className='text-2xl font-semibold text-white uppercase tracking-widest'>About the Event</h3>
-                <p className='text-white'>Event location and dates are to be announced.</p>
+                <p className='text-white w-[80%]'>Event location and dates are to be announced.</p>
             </motion.div>
             
             <motion.div 
@@ -47,7 +47,7 @@ export default function Footer() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false, amount:0.3}}
-                className='w-[23%] max-lg:w-full flex flex-col gap-5 h-full justify-start items-start'>
+                className='w-[23%] max-xl:w-full flex flex-col gap-5 h-full justify-start items-start'>
                 <h3 className='text-2xl font-semibold text-white uppercase tracking-widest'>Contact Us</h3>
                 <p className='text-white'>Tel: 08138679921</p>
                 <p className='text-white'>Email: Yemvalen@yahoo.com</p>
@@ -58,7 +58,7 @@ export default function Footer() {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{once:false, amount:0.3}}
-                className='flex flex-col gap-5 w-[23%] max-lg:w-full h-full'>
+                className='flex flex-col gap-5 w-[23%] max-xl:w-full h-full'>
                 <h3 className='text-white text-2xl font-semibold uppercase tracking-widest'>Subscribe to our newsletter</h3>
                 <p className='text-white text-xs tracking-widest'>Get news, updates and information about technologies been developed by the younger generation. 
                     Also get early information of event organizers plans in the coming weeks and months.</p>
