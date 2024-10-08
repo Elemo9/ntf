@@ -1,0 +1,55 @@
+"use client";
+import React from 'react'
+import {Swiper, SwiperSlide} from 'swiper/react'
+import { Navigation, Pagination, EffectFade,Autoplay } from 'swiper/modules';
+// import Swiper and modules styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
+import "swiper/css/autoplay";
+import studentImg from "../../../public/assets/proxy-image (10).jpeg";
+import innovationImg from "../../../public/assets/proxy-image (8).jpeg";
+import enterprenuerialImg from "../../../public/assets/proxy-image (6).jpeg";
+import economicImg from "../../../public/assets/proxy-image (5).jpeg";
+import Image from 'next/image';
+
+export default function Landing() {
+  return (
+    <div className='w-full h-[85vh] relative'>
+        {/* <div className='h-full w-full absolute top-0 left-0 bottom-0 bg-black z-30 opacity-70'>
+        </div> */}
+        <div className='h-full w-full flex flex-col gap-4 p-16 bg-transparent items-center justify-center absolute top-0'>
+            <h2 className='text-4xl lg:text-7xl font-bold tracking-widest text-white z-40 text-center'>Welcome to <br /><span className='text-red-500'>Osun </span><span className='text-yellow-500'>Tech </span><span className='text-green-500'>Fair </span>(OTF) 2025</h2>
+            <p className='text-sm lg:text-lg font-light tracking-widest text-white z-40 text-center'>Date: To Be Announced | Location: Osun State, Nigeria</p>
+            <button className='bg-yellow-500 z-40 py-4 text-xl px-8 hover:bg-red-500 transition-all tracking-wider cursor-pointer font-normal duration-300 text-white'>Get Tickets</button>
+        </div>
+        <Swiper
+            spaceBetween={30}
+            effect={'fade'}
+            autoplay={{
+                delay: 7000,
+            }}
+            navigation={true}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[EffectFade, Navigation, Pagination, Autoplay]}
+            className="mySwiper"
+        >
+            <SwiperSlide className=''>
+                <Image src={studentImg} alt='' className='w-full h-full object-cover brightness-50'/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Image src={innovationImg} alt='' className='w-full h-full object-cover brightness-50'/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Image src={enterprenuerialImg} alt='' className='w-full h-full object-cover brightness-50'/>
+            </SwiperSlide>
+            <SwiperSlide>
+                <Image src={economicImg} alt='' className='w-full h-full object-cover brightness-50'/>
+            </SwiperSlide>
+        </Swiper>
+    </div>
+  )
+}
