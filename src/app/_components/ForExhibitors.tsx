@@ -9,7 +9,7 @@ import { fadeIn } from '../../../lib/variants';
 export default function ForExhibitors() {
   return (
     <div className='h-fit py-32 w-full flex items-center justify-center bg-white'>
-        <div className='flex max-lg:flex-col max-lg:gap-6 h-fit justify-between w-[80%] mx-auto'>
+        <div className='flex max-lg:flex-col max-lg:gap-6 h-fit justify-between w-[80%] max-lg:w-[85%] mx-auto'>
             <div className='w-[48%] max-lg:w-full flex flex-col gap-3'>
                 <motion.h2 
                     variants={fadeIn("up", 0.2)}
@@ -22,17 +22,17 @@ export default function ForExhibitors() {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
-                    className='leading-8 text-base max-lg:text-sm tracking-widest mb-12'>Don't miss the chance to showcase your tech products and 
+                    className='leading-8 text-lg max-lg:text-base tracking-widest mb-12'>Don't miss the chance to showcase your tech products and 
                     services to thousands of attendees, including potential investors and partners. 
                     Secure your stand and get maximum visibility during this landmark event.
                 </motion.p>
                 <div className='flex gap-6 items-center'>
                     <MdPlayArrow size={40} color='red'/>
-                    <p className='tracking-widest max-lg:text-sm'>Early Bird Discount: Available until February 28, 2025</p>
+                    <p className='text-lg tracking-widest max-lg:text-base'>Early Bird Discount: Available until February 28, 2025</p>
                 </div>
                 <div className='flex gap-6 items-center'>
                     <MdPlayArrow size={40} color='red'/>
-                    <p className='tracking-widest max-lg:text-sm'>Stand Sizes & Packages: Various options to fit your brand's needs</p>
+                    <p className='text-lg tracking-widest max-lg:text-base'>Stand Sizes & Packages: Various options to fit your brand's needs</p>
                 </div>
             </div>
             <motion.div 

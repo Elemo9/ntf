@@ -49,8 +49,8 @@ export default function Footer() {
                 viewport={{once:false, amount:0.3}}
                 className='w-[23%] max-xl:w-full flex flex-col gap-5 h-full justify-start items-start'>
                 <h3 className='text-2xl font-semibold text-white uppercase tracking-widest'>Contact Us</h3>
-                <p className='text-white'>Tel: 08138679921</p>
-                <p className='text-white'>Email: Yemvalen@yahoo.com</p>
+                <p className='text-white w-[85%]'>For Inquiries: Inquiry@naijatechfair.com</p>
+                <p className='text-white w-[85%]'>For Bookings: bookings@naijatechfair.com</p>
             </motion.div>
 
             <motion.div 

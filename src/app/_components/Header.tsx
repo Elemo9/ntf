@@ -9,7 +9,7 @@ export default function Header() {
     }
   return (
     <nav className='w-full h-[100px] bg-black flex items-center justify-center sticky top-0 left-0 z-50 relative'>
-        <div className='flex justify-between w-[80%] max-lg:w-[80%] mx-auto h-fit items-center'>
+        <div className='flex justify-between w-[80%] max-lg:w-[85%] mx-auto h-fit items-center'>
             <div className='flex h-fit w-fit'>
                 <h1 className='text-white text-3xl font-semibold max-xl:text-xl max-lg:text-xl'><span className='text-red-500'>NAIJA</span><span className='text-yellow-500'>TECH</span><span className='text-green-500'>FAIR</span></h1>
             </div>
@@ -22,8 +22,8 @@ export default function Header() {
                 <p className={`${active === "faqs" ? "text-red-500" : "text-white"} cursor-pointer hover:text-red-500`}>FAQS</p>
                 <p className={`${active === "media" ? "text-red-500" : "text-white"} cursor-pointer hover:text-red-500`}>MEDIA GALLERY</p>
             </div>
-            <div className='h-fit w-fit max-sm:text-xs max-md:text-sm max-lg:text-lg max-xl:text-xl flex items-center gap-6 '>
-                <button className=' bg-yellow-500 transition-all duration-300 text-white py-2 px-4 font-normal rounded-sm  hover:bg-red-500 w-fit'>GET TICKETS</button>
+            <div className='h-fit w-fit max-sm:text-xs max-md:text-sm max-lg:text-lg max-xl:text-xl flex items-center gap-3 '>
+                <button className=' bg-yellow-500 transition-all duration-300 text-white py-2 px-4 font-normal rounded-lg  hover:bg-red-500 w-fit'>GET TICKETS</button>
                 <GiHamburgerMenu color='white' size={25} className='cursor-pointer hidden max-xl:flex' onClick={handleTabs}/>
             </div>
         </div> 
