@@ -11,7 +11,7 @@ export default function Header() {
     <nav className='w-full h-[100px] bg-black flex items-center justify-center sticky top-0 left-0 z-50 relative'>
         <div className='flex justify-between w-[80%] max-lg:w-[85%] mx-auto h-fit items-center'>
             <div className='flex h-fit w-fit'>
-                <h1 className='text-white text-3xl font-semibold max-xl:text-xl max-lg:text-xl'><span className='text-red-500'>NAIJA</span><span className='text-yellow-500'>TECH</span><span className='text-green-500'>FAIR</span></h1>
+                <h1 className='text-white text-3xl font-semibold max-xl:text-xl max-lg:text-xl'><span className='text-yellow-500'>NAIJA</span><span className='text-yellow-500'>TECH</span><span className='text-yellow-500'>FAIR</span></h1>
             </div>
             <div className='text-white flex gap-8 h-fit w-fit tracking-wide text-sm max-xl:text-xs max-xl:hidden '>
                 <p className={`${active === "home" ? "text-red-500" : "text-white"} tracking-wider font-bold`}>HOME</p>

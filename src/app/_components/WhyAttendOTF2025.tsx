@@ -1,13 +1,13 @@
 "use client";
 import Image from 'next/image'
 import React from 'react'
-import showcaseImg from "../../../public/assets/proxy-image (1).jpeg";
+import showcaseImg from "../../../public/assets/WhatsApp Image 2024-10-09 at 12.53.42_aed98bd9.jpg";
 import studentImg from "../../../public/assets/WhatsApp Image 2024-10-08 at 18.40.19_0db63cc4.jpg";
 import exhibitionImg from "../../../public/assets/WhatsApp Image 2024-10-08 at 16.28.34_dfcea667.jpg"
-import handsOnImg from "../../../public/assets/proxy-image (6).jpeg";
+import handsOnImg from "../../../public/assets/WhatsApp Image 2024-10-09 at 12.40.27_98d62fa2.jpg";
 import hackathonImg from "../../../public/assets/WhatsApp Image 2024-10-08 at 15.48.02_75a78c30.jpg";
 import pitchImg from "../../../public/assets/proxy-image.jpeg";
-import networkingImg from "../../../public/assets/proxy-image.png";
+import networkingImg from "../../../public/assets/WhatsApp Image 2024-10-09 at 12.44.43_56be49fb.jpg";
 import {motion} from "framer-motion";
 import { fadeIn } from '../../../lib/variants';
 
@@ -30,7 +30,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}                     
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={showcaseImg} className='w-[50%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={showcaseImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
@@ -83,7 +83,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={studentImg} className='w-[50%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={studentImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
                 </motion.div>
             </div>
             
@@ -96,7 +96,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}} 
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={exhibitionImg} className='w-[50%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={exhibitionImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
@@ -144,7 +144,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={handsOnImg} className='w-[50%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={handsOnImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
                 </motion.div>
 
             </div>
@@ -157,7 +157,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={hackathonImg} className='w-[50%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={hackathonImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
@@ -204,7 +204,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={pitchImg} className='w-[50%] max-lg:w-full object-cover h-[350px] '/>
+                    {/* <Image alt='' src={pitchImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/> */}
                 </motion.div>
             </div>
             {/* Networking & Collaboration */}
@@ -216,7 +216,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={networkingImg} className='w-[50%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={networkingImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
