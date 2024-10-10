@@ -20,7 +20,7 @@ export default function Landing() {
         {/* <div className='h-full w-full absolute top-0 left-0 bottom-0 bg-black z-30 opacity-70'>
         </div> */}
         <div className='h-full w-full flex flex-col gap-4 p-16 bg-transparent items-center justify-center absolute top-0'>
-            <h2 className='text-4xl lg:text-7xl font-bold tracking-widest text-white z-40 text-center'>Welcome to <br /><span className='text-red-500'>Naija </span><span className='text-yellow-500'>Tech </span><span className='text-green-500'>Fair </span>(Osun Chapter) 2025</h2>
+            <h2 className='text-4xl lg:text-7xl font-bold tracking-widest text-white z-40 text-center'>Welcome to <br /><span className='text-green-500 uppercase'>Naija </span><span className='text-green-500'>Tech </span><span className='text-green-500'>Fair </span>(Osun Chapter) 2025</h2>
             <p className='text-sm lg:text-2xl font-light tracking-widest text-white z-40 text-center'>Date: To Be Announced | Location: Osun State, Nigeria</p>
             <button className='bg-yellow-500 z-40 py-6 max-lg:py-3 text-2xl max-lg:text-base uppercase px-12 max-lg:px-8 rounded-2xl shadow-2xl hover:bg-red-500 transition-all tracking-wider cursor-pointer font-normal duration-300 text-white'>Get Tickets</button>
         </div>

@@ -30,7 +30,8 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}                     
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={showcaseImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={studentImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
+                    
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
@@ -83,7 +84,7 @@ export default function WhyAttendOTF2025() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
                     className='w-[48%] max-lg:w-full h-full flex items-center justify-center'>
-                    <Image alt='' src={studentImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
+                    <Image alt='' src={showcaseImg} className='w-[90%] max-lg:w-full object-cover h-[350px] '/>
                 </motion.div>
             </div>
             

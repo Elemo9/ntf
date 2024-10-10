@@ -6,10 +6,11 @@ import { FaYoutube } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../../lib/variants';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <div className='h-fit py-24 w-full flex items-center justify-center bg-black'>
+    <div className='h-fit py-24 w-full flex flex-col items-center justify-center bg-black'>
         <div className='h-[300px] max-xl:h-fit max-xl:gap-8 flex max-xl:flex-col justify-center items-center w-[85%] mx-auto'>
 
             <motion.div 
@@ -18,7 +19,7 @@ export default function Footer() {
                 whileInView={"show"}
                 viewport={{once:false, amount:0.3}}
                 className='w-[23%] max-xl:w-full h-full flex flex-col gap-5 '>
-                <h2 className='uppercase text-4xl font-semibold'><span className='text-red-500'>Naija</span><span className='text-green-500'>Tech</span><span className='text-yellow-500'>Fair</span></h2>
+                <h2 className='uppercase text-4xl font-semibold'><span className='text-green-500'>Naija </span><span className='text-green-500'>Tech </span><span className='text-green-500'>Fair</span></h2>
                 <div className='flex flex-col gap-4'>
                     <h3 className='text-white text-xl tracking-widest uppercase'>Social Handles</h3>
                     <div className='flex gap-4 w-fit'>
@@ -69,7 +70,14 @@ export default function Footer() {
             </motion.div>
 
         </div>
-
+        <div className='w-[80%] mx-auto h-fit justify-between flex '>
+            <p className='text-white text-sm'>Copyright &#169 2024, All Rights Reserved. </p>
+            <p className='text-white cursor-pointer hover:text-green-500 text-sm'>
+                <Link href={"https://stripeedge.com/"} target='_blank'>
+                    This website was developed and managed by <span className='text-green-500 hover:text-green-500'>StripeEdge Systems</span>
+                </Link>
+            </p>                
+        </div>
     </div>
   )
 }
