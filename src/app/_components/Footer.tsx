@@ -29,7 +29,6 @@ export default function Footer() {
                         <FaInstagram size={25} color='red' className='cursor-pointer'/>
                     </div>
                 </div>
-                <p className='text-white'>Project Cordinator: Elemo Seyi</p>
                 <p className='text-white'>For Partnership, Sponsorship, and general inquiries reach out to us anytime.</p>
             </motion.div>
             
