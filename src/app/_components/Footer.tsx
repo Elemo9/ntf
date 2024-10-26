@@ -7,6 +7,8 @@ import { FaInstagram } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../../lib/variants';
 import Link from 'next/link';
+import Image from 'next/image';
+import logoImg from "../../../public/assets/Tech fair 8.png"
 
 export default function Footer() {
   return (
@@ -19,14 +21,14 @@ export default function Footer() {
                 whileInView={"show"}
                 viewport={{once:false, amount:0.3}}
                 className='w-[23%] max-xl:w-full h-full flex flex-col gap-5 '>
-                <h2 className='uppercase text-4xl font-semibold'><span className='text-green-500'>Naija </span><span className='text-green-500'>Tech </span><span className='text-green-500'>Fair</span></h2>
-                <div className='flex flex-col gap-4'>
+                <Image src={logoImg} alt='' className='w-[200px] aspect-auto'/>
+                <div className='flex flex-col gap-4 mt-[-10px]'>
                     <h3 className='text-white text-xl tracking-widest uppercase'>Social Handles</h3>
                     <div className='flex gap-4 w-fit'>
-                        <FaFacebook size={25} color='red' className='cursor-pointer'/>
+                        <FaFacebook size={25} color='green' className='cursor-pointer'/>
                         <FaX size={25} color='green' className='cursor-pointer'/>
-                        <FaYoutube size={25} color='yellow' className='cursor-pointer'/>
-                        <FaInstagram size={25} color='red' className='cursor-pointer'/>
+                        <FaYoutube size={25} color='green' className='cursor-pointer'/>
+                        <FaInstagram size={25} color='green' className='cursor-pointer'/>
                     </div>
                 </div>
                 <p className='text-white'>For Partnership, Sponsorship, and general inquiries reach out to us anytime.</p>
@@ -39,6 +41,7 @@ export default function Footer() {
                 viewport={{once:false, amount:0.3}}
                 className='w-[23%] max-xl:w-full flex flex-col gap-5 h-full'>
                 <h3 className='text-2xl font-semibold text-white uppercase tracking-widest'>About the Event</h3>
+                <p className='text-white w-[80%]'>Call Miss Dolapo: 09162468852</p>
                 <p className='text-white w-[80%]'>Event location and dates are to be announced.</p>
             </motion.div>
             
@@ -64,10 +67,9 @@ export default function Footer() {
                     Also get early information of event organizers plans in the coming weeks and months.</p>
                 <div className='flex h-[60px]'>
                     <input placeholder='Email' type='email' className='p-2 h-full' />
-                    <button className='w-fit h-full bg-red-500 text-white py-3 px-6'>Subscribe</button>
+                    <button className='w-fit h-full bg-green-500 text-white py-3 px-6'>Subscribe</button>
                 </div>
             </motion.div>
-
         </div>
         <div className='w-[80%] mx-auto h-fit justify-between flex '>
             <p className='text-white text-sm'>Copyright &#169 2024, All Rights Reserved. </p>

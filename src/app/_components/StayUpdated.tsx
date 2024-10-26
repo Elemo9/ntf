@@ -5,7 +5,7 @@ import { fadeIn } from '../../../lib/variants';
 
 export default function StayUpdated() {
   return (
-    <div className='h-fit py-16 w-full bg-green-500 flex items-center justify-center'>
+    <div className='h-fit py-16 w-full bg-green-200 flex items-center justify-center'>
         <div className='flex h-fit p-14 max-lg:px-6 max-lg:py-8 w-[80%] max-lg:w-[85%] max-lg:flex-col max-lg:gap-6 mx-auto justify-between bg-white rounded-lg shadow-2xl'>
             
             <motion.div 
@@ -21,7 +21,7 @@ export default function StayUpdated() {
                     Don't miss out on the opportunity to be part 
                     of the future of technology in Osun State.
                 </p>
-                <button className='hover:bg-green-500 rounded-2xl max-lg:text-sm transition-all shadow-2xl duration-300 w-fit h-fit py-6 max-lg:py-3 max-lg:px-6 px-10 bg-black uppercase tracking-widest text-base mt-8 text-white'>Subscribe Now</button>
+                <button className='rounded-2xl max-lg:text-sm transition-all shadow-2xl duration-300 w-fit h-fit py-6 max-lg:py-3 max-lg:px-6 px-10 bg-green-500 hover:bg-green-600 uppercase tracking-widest text-base mt-8 text-white'>Subscribe Now</button>
             </motion.div>
             
             <motion.div 
@@ -34,7 +34,7 @@ export default function StayUpdated() {
                 <input className='p-4 rounded-md max-lg:p-2 max-lg:text-sm' type='text' placeholder='Your Name...'/>
                 <input type="email" className='p-4 rounded-md max-lg:p-2 max-lg:text-sm' placeholder='Your Email...'/>
                 <textarea placeholder='Message' className='p-4 rounded-md max-lg:p-2 h-32 max-lg:text-sm'></textarea> 
-                <button className='w-fit h-fit bg-red-500 rounded-xl text-white hover:bg-green-500 duration-300 transition-all py-4 px-6 text-sm mt-8 tracking-widest uppercase shadow-2xl'>Submit Message</button>
+                <button className='w-fit h-fit bg-green-500 rounded-xl text-white hover:bg-green-600 duration-300 transition-all py-4 px-6 text-sm mt-8 tracking-widest uppercase shadow-2xl'>Submit Message</button>
             </motion.div>
         </div>      
     </div>

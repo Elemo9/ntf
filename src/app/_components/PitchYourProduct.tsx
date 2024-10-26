@@ -42,11 +42,11 @@ function PitchYourProduct() {
                       whileInView={"show"}
                       viewport={{once:false, amount:0.3}}
                       className='bg-gray-100 rounded-lg shadow-2xl w-fit h-[150px] p-8 flex flex-col gap-2 relative overflow-hidden'>
-                      <h2 className='text-xl font-semibold tracking-wider text-red-500'>Pitch day</h2>
+                      <h2 className='text-xl font-semibold tracking-wider text-green-500'>Pitch day</h2>
                       
                       <p className='tracking-wider text-sm'>April 18, 2025 | Slots: Limited</p>
                       
-                      <div className='w-[60px] h-[60px] rounded-full bg-red-500 absolute bottom-[-15px] right-[-10px] z-20 flex items-center justify-center'>
+                      <div className='w-[60px] h-[60px] rounded-full bg-green-500 absolute bottom-[-15px] right-[-10px] z-20 flex items-center justify-center'>
                         <p className='text-white font-semibold text-xl'>1</p>
                       </div>
                     </motion.div>
@@ -55,7 +55,7 @@ function PitchYourProduct() {
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{once:false, amount:0.3}}
-                      className='mt-6 tracking-wider text-lg shadow-2xl rounded-xl w-fit h-fit py-4 px-12 bg-yellow-500 text-white cursor-pointer hover:bg-red-500 transition-all duration-300'>Register Now</motion.button>
+                      className='mt-6 tracking-wider text-lg shadow-2xl rounded-xl w-fit h-fit py-4 px-12 bg-green-500 text-white cursor-pointer hover:bg-red-500 transition-all duration-300'>Register Now</motion.button>
                 </div>
             </div>
         </div>

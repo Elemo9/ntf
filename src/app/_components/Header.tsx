@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
+import Image from 'next/image';
+import logoImg from "../../../public/assets/Tech fair 8.png"
 export default function Header() {
     const [active, set_active] = useState("home")
     const [open_nav, set_nav] = useState(false);
@@ -9,11 +11,11 @@ export default function Header() {
     }
   return (
     <nav className='w-full h-[100px] bg-black flex items-center justify-center sticky top-0 left-0 z-50 relative'>
-        <div className='flex justify-between w-[80%] max-lg:w-[85%] mx-auto h-fit items-center'>
+        <div className='flex justify-between w-[90%] max-lg:w-[90%] mx-auto h-fit items-center'>
             <div className='flex h-fit w-fit'>
-                <h1 className='text-white text-3xl font-semibold max-xl:text-xl max-lg:text-xl'><span className='text-green-500'>NAIJA </span><span className='text-green-500'>TECH </span><span className='text-green-500'>FAIR</span></h1>
+                <Image src={logoImg} alt='' className='w-[200px] aspect-auto cursor-pointer'/>
             </div>
-            <div className='text-white flex gap-8 h-fit w-fit tracking-wide text-sm max-xl:text-xs max-xl:hidden '>
+            <div className='text-white flex gap-8 h-fit w-fit tracking-wide text-xs max-xl:text-xs max-xl:hidden '>
                 <p className={`${active === "home" ? "text-green-500" : "text-white"} tracking-wider font-bold`}>HOME</p>
                 <p className={`${active === "book" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>BOOK A STAND</p>
                 <p className={`${active === "partnership" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>PARTNERSHIP</p>
@@ -23,7 +25,7 @@ export default function Header() {
                 <p className={`${active === "media" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>MEDIA GALLERY</p>
             </div>
             <div className='h-fit w-fit max-sm:text-xs max-md:text-sm max-lg:text-lg max-xl:text-xl flex items-center gap-3 '>
-                <button className=' bg-yellow-500 transition-all duration-300 text-white py-2 px-4 font-normal rounded-lg  hover:bg-red-500 w-fit'>GET TICKETS</button>
+                <button className=' bg-yellow-500 transition-all duration-500 text-white py-2 px-4 font-normal rounded-lg  hover:bg-green-500 w-fit'>GET TICKETS</button>
                 <GiHamburgerMenu color='white' size={25} className='cursor-pointer hidden max-xl:flex' onClick={handleTabs}/>
             </div>
         </div> 

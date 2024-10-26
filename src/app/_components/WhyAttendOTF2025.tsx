@@ -20,7 +20,7 @@ export default function WhyAttendOTF2025() {
             whileInView={"show"}
             viewport={{once:false, amount:0.3}}
             className='text-6xl text-white font-bold max-lg:text-3xl uppercase tracking-widest'>Why Attend OTF 2025</motion.h2>
-        <div className='flex flex-col items-center justify-center w-[80%] max-lg:w-[85%] max-lg:gap-10 mt-20 '>
+        <div className='flex flex-col items-center justify-center w-[90%] max-lg:w-[85%] max-lg:gap-10 mt-20 '>
            
             {/* Showcase Your Innovation */}
             <div className='flex max-lg:flex-col h-[400px] max-lg:h-fit justify-between w-full'>
@@ -35,7 +35,7 @@ export default function WhyAttendOTF2025() {
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
-                    <div className='rounded-full border-4 bg-red-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
+                    <div className='rounded-full border-4 bg-green-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
                 </div>                
 
                 <motion.div
@@ -75,7 +75,7 @@ export default function WhyAttendOTF2025() {
                 </motion.div>
                 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
-                    <div className='rounded-full border-4 bg-red-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
+                    <div className='rounded-full border-4 bg-green-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
                 </div>                
                 
                 <motion.div 
@@ -101,7 +101,7 @@ export default function WhyAttendOTF2025() {
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
-                    <div className='rounded-full border-4 bg-red-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
+                    <div className='rounded-full border-4 bg-green-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
                 </div> 
 
                 <motion.div 
@@ -136,7 +136,7 @@ export default function WhyAttendOTF2025() {
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
-                    <div className='rounded-full border-4 bg-red-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
+                    <div className='rounded-full border-4 bg-green-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
                 </div>
 
                 <motion.div 
@@ -162,7 +162,7 @@ export default function WhyAttendOTF2025() {
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
-                    <div className='rounded-full border-4 bg-red-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
+                    <div className='rounded-full border-4 bg-green-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
                 </div>  
 
                 <motion.div 
@@ -196,7 +196,7 @@ export default function WhyAttendOTF2025() {
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
-                    <div className='rounded-full border-4 bg-red-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
+                    <div className='rounded-full border-4 bg-green-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
                 </div>      
 
                 <motion.div 
@@ -221,7 +221,7 @@ export default function WhyAttendOTF2025() {
                 </motion.div>
 
                 <div className='w-[2px] max-lg:hidden bg-gray-400 relative'>
-                    <div className='rounded-full border-4 bg-red-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
+                    <div className='rounded-full border-4 bg-green-500 w-[30px] absolute top-1/2 left-[-600%] h-[30px]'></div>
                 </div>   
 
                 <motion.div 

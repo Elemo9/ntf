@@ -36,7 +36,7 @@ function UnlockTheFutureOfInnovation() {
                         Whether you're a seasoned tech enthusiast, a student with groundbreaking ideas, or an investor seeking the next big thing, 
                         OTF 2025 is the event that will take your vision to new heights.
                     </motion.p>
-                    <button className='tracking-wide rounded-lg shadow-2xl mt-6 w-fit h-fit py-4 px-12 bg-yellow-500 text-white cursor-pointer hover:bg-red-500 transition-all duration-300'>Register Now</button>
+                    <button className='tracking-wide rounded-lg shadow-2xl mt-6 w-fit h-fit py-4 px-12 bg-yellow-500 text-white cursor-pointer hover:bg-green-500 transition-all duration-300'>Register Now</button>
                 </div>
             </div>
         </div>

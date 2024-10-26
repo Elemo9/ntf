@@ -9,7 +9,7 @@ import { fadeIn } from '../../../lib/variants';
 export default function ForExhibitors() {
   return (
     <div className='h-fit py-32 w-full flex items-center justify-center bg-white'>
-        <div className='flex max-lg:flex-col max-lg:gap-6 h-fit justify-between w-[80%] max-lg:w-[85%] mx-auto'>
+        <div className='flex max-lg:flex-col max-lg:gap-6 h-fit justify-between w-[90%] max-lg:w-[85%] mx-auto'>
             <div className='w-[48%] max-lg:w-full flex flex-col gap-3'>
                 <motion.h2 
                     variants={fadeIn("up", 0.2)}
@@ -27,11 +27,11 @@ export default function ForExhibitors() {
                     Secure your stand and get maximum visibility during this landmark event.
                 </motion.p>
                 <div className='flex gap-6 items-center'>
-                    <MdPlayArrow size={40} color='red'/>
+                    <MdPlayArrow size={40} color='green'/>
                     <p className='text-lg tracking-widest max-lg:text-base'>Early Bird Discount: Available until February 28, 2025</p>
                 </div>
                 <div className='flex gap-6 items-center'>
-                    <MdPlayArrow size={40} color='red'/>
+                    <MdPlayArrow size={40} color='green'/>
                     <p className='text-lg tracking-widest max-lg:text-base'>Stand Sizes & Packages: Various options to fit your brand's needs</p>
                 </div>
             </div>
