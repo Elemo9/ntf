@@ -28,7 +28,7 @@ export default function ForExhibitors() {
                 </motion.p>
                 <div className='flex gap-6 items-center'>
                     <MdPlayArrow size={40} color='green'/>
-                    <p className='text-lg tracking-widest max-lg:text-base'>Early Bird Discount: Available until February 28, 2025</p>
+                    <p className='text-lg tracking-widest max-lg:text-base'>Early Bird Discount: Available until February 10, 2025</p>
                 </div>
                 <div className='flex gap-6 items-center'>
                     <MdPlayArrow size={40} color='green'/>

@@ -19,9 +19,9 @@ export default function StudentOutcomes() {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
-                    className='flex flex-col gap-3 w-[23%] max-xl:w-full max-xl:items-center max-xl:justify-center h-fit p-2'>
-                    <Image alt='' src={studentImg} className='w-full h-[400px] object-cover'/>
-                    <h2 className='text-white tracking-widest font-semibold text-center uppercase text-lg'>Student Empowerment</h2>
+                    className='flex flex-col border-r border-white max-lg:border-none gap-3 w-[23%] max-xl:w-full max-xl:items-center max-xl:justify-center h-fit p-2'>
+                    
+                    <h2 className='text-white tracking-widest font-semibold  uppercase text-lg'>Student Empowerment</h2>
                     <p className='text-white text-sm tracking-widest leading-6'>
                         A platform that propels student projects into the limelight, 
                         with expert ratings, recognition, and potential real-world application.
@@ -33,9 +33,9 @@ export default function StudentOutcomes() {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
-                    className='flex flex-col gap-3 w-[23%] max-xl:w-full max-xl:items-center max-xl:justify-center h-fit p-2'>
-                    <Image alt='' src={innovationImg} className='w-full h-[400px] object-cover'/>
-                    <h2 className='text-white tracking-widest font-semibold text-center uppercase text-lg'>Increased Innovation</h2>
+                    className='flex border-r border-white max-lg:border-none flex-col gap-3 w-[23%] max-xl:w-full max-xl:items-center max-xl:justify-center h-fit p-2'>
+                    
+                    <h2 className='text-white tracking-widest font-semibold  uppercase text-lg'>Increased Innovation</h2>
                     <p className='text-white text-sm tracking-widest leading-6'>
                         Exposure to the latest technologies and trends to inspire growth in businesses and startups.
                     </p>
@@ -46,9 +46,9 @@ export default function StudentOutcomes() {
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
-                    className='flex flex-col gap-3 w-[23%] max-xl:w-full max-xl:items-center max-xl:justify-center h-fit p-2'>
-                    <Image alt='' src={enterprenuerialImg} className='w-full h-[400px] object-cover'/>
-                    <h2 className='text-white tracking-widest font-semibold text-center uppercase text-lg'>Entrepreneurial Growth</h2>
+                    className='flex border-r border-white max-lg:border-none flex-col gap-3 w-[23%] max-xl:w-full max-xl:items-center max-xl:justify-center h-fit p-2'>
+                    
+                    <h2 className='text-white tracking-widest font-semibold  uppercase text-lg'>Entrepreneurial Growth</h2>
                     <p className='text-white text-sm tracking-widest leading-6'>
                         A venue for startups to gain visibility, attract investors, and kickstart tech-based enterprises.
                     </p>
@@ -60,8 +60,8 @@ export default function StudentOutcomes() {
                     whileInView={"show"}
                     viewport={{once:false, amount:0.3}}
                     className='flex flex-col gap-3 w-[23%] max-xl:w-full max-xl:items-center max-xl:justify-center h-fit p-2'>
-                    <Image alt='' src={economicImg} className='w-full h-[400px] object-cover'/>
-                    <h2 className='text-white tracking-widest font-semibold text-center uppercase text-lg'>Economic Development</h2>
+                    
+                    <h2 className='text-white tracking-widest font-semibold  uppercase text-lg'>Economic Development</h2>
                     <p className='text-white text-sm tracking-widest leading-6'>
                         The fair will drive investments and innovations that contribute to Osun State's socio-economic growth.
                     </p>

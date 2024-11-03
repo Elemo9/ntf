@@ -18,9 +18,9 @@ export default function Header() {
             </div>
             <div className='text-white flex gap-8 h-fit w-fit tracking-wide text-xs max-xl:text-xs max-xl:hidden '>
                 <p className={`${active === "home" ? "text-green-500" : "text-white"} tracking-wider font-bold`}>HOME</p>
-                <p className={`${active === "book" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>BOOK A STAND</p>
-                <p className={`${active === "partnership" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>PARTNERSHIP</p>
                 <p className={`${active === "about" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>ABOUT</p>
+                <p className={`${active === "partnership" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>PARTNERSHIP</p>
+                <p className={`${active === "book" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>BOOK A STAND</p>
                 <p className={`${active === "contact" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>CONTACT US</p>
                 <p className={`${active === "faqs" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>FAQS</p>
                 <p className={`${active === "media" ? "text-green-500" : "text-white"} cursor-pointer hover:text-green-500`}>MEDIA GALLERY</p>

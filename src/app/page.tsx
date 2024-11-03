@@ -9,6 +9,7 @@ import StayUpdated from "./_components/StayUpdated";
 import StudentOutcomes from "./_components/StudentOutcomes";
 import Footer from "./_components/Footer";
 import Workshop from "./_components/Workshop";
+import InterdisciplinaryProjectCompetition from "./_components/InterdisciplinaryProjectCompetition";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Landing />      
       <UnlockTheFutureOfInnovation />
       <Workshop />
+      <InterdisciplinaryProjectCompetition />
       <WhyAttendOTF2025 />
       <ForExhibitors />
       <SponsorshipOpportunities />

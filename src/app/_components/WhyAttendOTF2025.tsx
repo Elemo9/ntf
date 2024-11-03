@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import showcaseImg from "../../../public/assets/WhatsApp Image 2024-10-09 at 12.53.42_aed98bd9.jpg";
 import studentImg from "../../../public/assets/WhatsApp Image 2024-10-08 at 18.40.19_0db63cc4.jpg";
-import exhibitionImg from "../../../public/assets/WhatsApp Image 2024-10-08 at 16.28.34_dfcea667.jpg"
+import exhibitionImg from "../../../public/assets/exhibitionanddemosImage.webp"
 import handsOnImg from "../../../public/assets/WhatsApp Image 2024-10-09 at 12.40.27_98d62fa2.jpg";
 import hackathonImg from "../../../public/assets/WhatsApp Image 2024-10-08 at 15.48.02_75a78c30.jpg";
 import pitchImg from "../../../public/assets/proxy-image.jpeg";
@@ -67,7 +67,7 @@ export default function WhyAttendOTF2025() {
                     <h2 className='text-white font-semibold text-3xl max-lg:text-xl tracking-wider uppercase'>Student Project Spotlight</h2>
                     <p className='font-normal text-base text-white leading-8 tracking-widest w-[90%] max-lg:w-full'>
                         Many brilliant student projects are left forgotten after graduation. 
-                        Osun Tech Fair is here to change that. We will provide a platform for 
+                        Naija Tech Fair is here to change that. We will provide a platform for 
                         students to showcase their final year projects, giving them the exposure 
                         they deserve. Projects will be reviewed and rated by experts, 
                         helping students gain visibility and recognition in the tech ecosystem.
