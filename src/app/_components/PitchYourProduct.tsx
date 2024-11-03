@@ -31,7 +31,7 @@ function PitchYourProduct() {
                       initial="hidden"
                       whileInView={"show"}
                       viewport={{once:false, amount:0.3}}
-                      className='text-lg tracking-wider font-normal leading-8'>
+                      className='text-base tracking-wider font-normal leading-8'>
                       Ready to take your innovation to the next level? Pitch your project to a panel of 
                       top investors and industry professionals at OTF 2025. This is 
                       your chance to attract funding, mentorship, and valuable partnerships.

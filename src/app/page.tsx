@@ -8,12 +8,14 @@ import PitchYourProduct from "./_components/PitchYourProduct";
 import StayUpdated from "./_components/StayUpdated";
 import StudentOutcomes from "./_components/StudentOutcomes";
 import Footer from "./_components/Footer";
+import Workshop from "./_components/Workshop";
 
 export default function Home() {
   return (
     <div className="w-full h-fit">
       <Landing />      
       <UnlockTheFutureOfInnovation />
+      <Workshop />
       <WhyAttendOTF2025 />
       <ForExhibitors />
       <SponsorshipOpportunities />

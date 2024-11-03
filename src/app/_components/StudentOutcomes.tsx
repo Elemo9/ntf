@@ -1,9 +1,9 @@
 "use client";
 import Image from 'next/image'
 import React from 'react'
-import studentImg from "../../../public/assets/d6f95c4f-204e-46dd-9477-6e0ed6bf2cba.webp";
+import studentImg from "../../../public/assets/WhatsApp Image 2024-10-26 at 19.07.01_89831302.jpg";
 import innovationImg from "../../../public/assets/proxy-image (8).jpeg";
-import enterprenuerialImg from "../../../public/assets/DALL·E 2024-10-09 10.04.22 - A scene of young African students engaged in entrepreneurial growth activities in a modern, open workspace. The students, dressed in vibrant, cultural.webp";
+import enterprenuerialImg from "../../../public/assets/pitch-image.webp";
 import economicImg from "../../../public/assets/WhatsApp Image 2024-10-08 at 15.48.02_75a78c30.jpg";
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../../lib/variants';

@@ -21,7 +21,7 @@ export default function Landing() {
         </div> */}
         <div className='h-full w-full flex flex-col gap-4 p-16 bg-transparent items-center justify-center absolute top-0'>
             <h2 className='text-4xl lg:text-5xl w-[95%] font-bold tracking-widest text-white z-40 text-center'>Welcome to <br /><span className='text-green-500 uppercase'>Naija </span><span className='text-green-500'>Tech </span><span className='text-green-500'>Fair </span>(Osun Chapter) 2025</h2>
-            <p className='text-sm lg:text-2xl font-light tracking-widest text-white z-40 text-center'>Date: To Be Announced | Location: Osun State, Nigeria</p>
+            <p className='text-sm lg:text-2xl font-light tracking-widest text-white z-40 text-center'>Date: February 26th to 28th | Location: Osun State, Nigeria</p>
             <button className='bg-green-500 duration-500 transition-all z-40 py-6 max-lg:py-3 text-2xl max-lg:text-base uppercase px-12 max-lg:px-8 rounded-2xl shadow-2xl hover:bg-green-600  tracking-wider cursor-pointer font-normal text-white'>Get Tickets</button>
         </div>
         <Swiper

@@ -22,7 +22,8 @@ export default function Footer() {
                 viewport={{once:false, amount:0.3}}
                 className='w-[23%] max-xl:w-full h-full flex flex-col gap-5 '>
                 <Image src={logoImg} alt='' className='w-[200px] aspect-auto'/>
-                <div className='flex flex-col gap-4 mt-[-10px]'>
+                <p className='italic text-green-500 text-xs mt-[-50px]'>...where innovation meets impact</p>
+                <div className='flex flex-col gap-4 '>
                     <h3 className='text-white text-xl tracking-widest uppercase'>Social Handles</h3>
                     <div className='flex gap-4 w-fit'>
                         <FaFacebook size={25} color='green' className='cursor-pointer'/>
@@ -71,8 +72,8 @@ export default function Footer() {
                 </div>
             </motion.div>
         </div>
-        <div className='w-[80%] mx-auto h-fit justify-between flex '>
-            <p className='text-white text-sm'>Copyright &#169 2024, All Rights Reserved. </p>
+        <div className='w-[80%] mx-auto h-fit justify-between flex max-lg:mt-6 max-lg:w-[90%]'>
+            <p className='text-white text-sm'>Copyright C 2024, All Rights Reserved. </p>
             <p className='text-white cursor-pointer hover:text-green-500 text-sm'>
                 <Link href={"https://stripeedge.com/"} target='_blank'>
                     This website was developed and managed by <span className='text-green-500 hover:text-green-500'>StripeEdge Systems</span>
