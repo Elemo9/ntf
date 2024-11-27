@@ -57,7 +57,7 @@ export default function Footer() {
                 <p className='text-white text-sm w-[85%]'>For Bookings: bookings@naijatechfair.com</p>
                 <p className='text-white text-sm w-[85%]'>For Sponsorship: Sponsor@naijatechfair.com</p>
                 <p className='text-white text-sm w-[85%]'>For Partnership: Partnership@naijatechfair.com</p>
-                <p className='text-white text-sm w-[85%]'>Call/WhatsApp Only: 09162468852</p>
+                <p className='text-white text-sm w-[85%]'>Call/WhatsApp Only: 08055529521</p>
 
                 
             </motion.div>

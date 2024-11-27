@@ -37,7 +37,7 @@ function SponsorshipOpportunities() {
                 <p className='leading-8 tracking-widest text-lg text-white max-lg:text-sm max-lg:leading-8 max-lg:self-start'>To Apply to Pitch Your Project or Startup with Industry Leaders and Investors, Fill the form below: </p>
                 <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSeKlYdasKIHZ3hXrmuWhlOS7jYmeXeFRxecgyQiCo2OTjOiSg/viewform?usp=sf_link"} target='_blank' className='w-fit h-fit max-lg:self-start'>
                     <button className='bg-green-500 text-white hover:bg-green-600 transition-all duration-500 text-base tracking-widest py-3 px-5 '>
-                        Apply Here                
+                        Contact Us             
                     </button>                
                 </Link>
             </motion.div>

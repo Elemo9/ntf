@@ -20,7 +20,7 @@ export default function WhyAttendOTF2025() {
             initial="hidden"
             whileInView={"show"}
             viewport={{once:false, amount:0.3}}
-            className='text-6xl text-white font-bold max-lg:text-3xl uppercase tracking-widest'>Why Attend OTF 2025</motion.h2>
+            className='text-6xl text-white font-bold max-lg:text-3xl uppercase tracking-widest'>Why Attend NTF 2025</motion.h2>
         <div className='flex flex-col items-center justify-center w-[90%] max-lg:w-[85%] max-lg:gap-10 mt-20 '>
            
             {/* Showcase Your Innovation */}
@@ -53,7 +53,6 @@ export default function WhyAttendOTF2025() {
                         projects from the shelf to the spotlight, with the chance to gain recognition, mentorship and funding.
                     </p>
                 </motion.div>
-
             </div>
             
             {/* Student Project Spotlight */}

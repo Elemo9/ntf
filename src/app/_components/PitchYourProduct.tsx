@@ -1,7 +1,7 @@
 "use client";
 import React from 'react'
 import Image from 'next/image';
-import pitchImage from "../../../public/assets/WhatsApp Image 2024-10-08 at 18.46.09_98b87d7c.jpg";
+import pitchImage from "../../../public/assets/WhatsApp Image 2024-11-27 at 00.46.38_9a51a1cb.jpg";
 import {motion} from "framer-motion";
 import { fadeIn } from '../../../lib/variants';
 import Link from 'next/link';
@@ -34,7 +34,7 @@ function PitchYourProduct() {
                       viewport={{once:false, amount:0.3}}
                       className='text-base tracking-wider font-normal leading-8'>
                       Ready to take your innovation to the next level? Pitch your project to a panel of 
-                      top investors and industry professionals at OTF 2025. This is 
+                      top investors and industry professionals at NTF 2025. This is 
                       your chance to attract funding, mentorship, and valuable partnerships.
                     </motion.p>
                     <motion.div 
@@ -45,7 +45,7 @@ function PitchYourProduct() {
                       className='bg-gray-100 rounded-lg shadow-2xl w-fit h-[150px] p-8 flex flex-col gap-2 relative overflow-hidden'>
                       <h2 className='text-xl font-semibold tracking-wider text-green-500'>Pitch day</h2>
                       
-                      <p className='tracking-wider text-sm'>February 27, 2025 | Slots: Limited</p>
+                      <p className='tracking-wider text-sm'>March 28th, 2025 | Slots: Limited</p>
                       
                       <div className='w-[60px] h-[60px] rounded-full bg-green-500 absolute bottom-[-15px] right-[-10px] z-20 flex items-center justify-center'>
                         <p className='text-white font-semibold text-xl'>1</p>

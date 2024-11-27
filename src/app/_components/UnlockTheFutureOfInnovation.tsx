@@ -30,11 +30,11 @@ function UnlockTheFutureOfInnovation() {
                         initial="hidden"
                         whileInView={"show"}
                         viewport={{once:false, amount:0.3}} 
-                        className='text-base tracking-wider font-normal leading-8 max-lg:text-xs max-lg:leading-8'>The Osun Tech Fair 2025 is the ultimate platform where the brightest minds in technology, innovation, and 
+                        className='text-base tracking-wider font-normal leading-8 max-lg:text-xs max-lg:leading-8'>The Naija Tech Fair 2025 is the ultimate platform where the brightest minds in technology, innovation, and 
                         entrepreneurship come together to shape the future. Over the course of three exhilarating days, 
-                        Osun State will transform into Nigeria's hub for cutting-edge technology, hosting innovators, students, startups, and industry leaders. 
+                        Lagos State will transform into Nigeria's hub for cutting-edge technology, hosting innovators, students, startups, and industry leaders. 
                         Whether you're a seasoned tech enthusiast, a student with groundbreaking ideas, or an investor seeking the next big thing, 
-                        OTF 2025 is the event that will take your vision to new heights.
+                        NTF 2025 is the event that will take your vision to new heights.
                     </motion.p>
                     {/* <button className='tracking-wide rounded-lg shadow-2xl mt-6 w-fit h-fit py-4 px-12 bg-yellow-500 text-white cursor-pointer hover:bg-green-500 transition-all duration-300'>Register Now</button> */}
                 </div>

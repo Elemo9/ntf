@@ -35,7 +35,7 @@ function InterdisciplinaryProjectCompetition() {
                         where university and polytechnic students from diverse fields come together to tackle real-world challenges through innovation. 
                         We're inviting universities to register teams of up to five students, encouraging collaborative projects that bridge technology, 
                         science, and other disciplines. Compete for mentorship, exposure, and the opportunity to showcase your solution at Naija Tech Fair! 
-                        (Limited to Schools in Osun state)
+                        (Limited to Schools in Lagos state)
 
                     </motion.p>
                     <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSdx9ylRuhfGk0uLUyXE7tEhWmNSw_lgETMGQ3PvxB5sO4299g/viewform?usp=sf_link"} target='_blank'>
