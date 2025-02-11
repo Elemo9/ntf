@@ -1,56 +1,39 @@
 "use client";
-import React from 'react'
-import {Swiper, SwiperSlide} from 'swiper/react'
-import { Navigation, Pagination, EffectFade,Autoplay } from 'swiper/modules';
-// import Swiper and modules styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
-import "swiper/css/autoplay";
-import studentImg from "../../../public/assets/proxy-image (10).jpeg";
-import innovationImg from "../../../public/assets/proxy-image (8).jpeg";
+import React from "react";
+import Image from "next/image";
 import enterprenuerialImg from "../../../public/assets/pexels-padrinan-3785931.jpg";
-import economicImg from "../../../public/assets/proxy-image (5).jpeg";
-import Image from 'next/image';
 
 export default function Landing() {
   return (
-    <div className='w-full h-[85vh] relative'>
-        {/* <div className='h-full w-full absolute top-0 left-0 bottom-0 bg-black z-30 opacity-70'>
-        </div> */}
-        <div className='h-full w-full flex flex-col gap-4 p-16 bg-transparent items-center justify-center absolute top-0'>
-            <h2 className='text-4xl lg:text-6xl w-[95%] font-bold tracking-widest text-white z-40 text-center'>Welcome to <br /><span className='text-green-500 uppercase'>Naija </span><span className='text-green-500'>Tech </span><span className='text-green-500'>Fair </span>(Lagos Edition) 2025</h2>
-            <p className='text-sm lg:text-2xl font-light tracking-widest text-white z-40 text-center'>Date: March 27th to 29th | Location: Lagos State, Nigeria</p>
-            {/* <button className='bg-green-500 duration-500 transition-all z-40 py-6 max-lg:py-3 text-2xl max-lg:text-base uppercase px-12 max-lg:px-8 rounded-2xl shadow-2xl hover:bg-green-600  tracking-wider cursor-pointer font-normal text-white'>Get Tickets</button> */}
-        </div>
-        <Image src={enterprenuerialImg} alt='' className='w-full h-full object-cover brightness-50'/>
-        {/* <Swiper
-            spaceBetween={30}
-            effect={'fade'}
-            autoplay={{
-                delay: 7000,
-            }}
-            navigation={true}
-            pagination={{
-              clickable: true,
-            }}
-            modules={[EffectFade, Navigation, Pagination, Autoplay]}
-            className="mySwiper"
-        >
-            <SwiperSlide className=''>
-                <Image src={studentImg} alt='' className='w-full h-full object-cover brightness-50'/>
-            </SwiperSlide>
-            <SwiperSlide>
-                <Image src={innovationImg} alt='' className='w-full h-full object-cover brightness-50'/>
-            </SwiperSlide>
-            <SwiperSlide>
-                <Image src={enterprenuerialImg} alt='' className='w-full h-full object-cover brightness-50'/>
-            </SwiperSlide>
-            <SwiperSlide>
-                <Image src={economicImg} alt='' className='w-full h-full object-cover brightness-50'/>
-            </SwiperSlide>
-        </Swiper> */}
+    <div className="w-full h-[70vh] relative">
+  
+      <div className="h-full w-full flex flex-col gap-9 p-12 bg-transparent items-center justify-center absolute top-0 z-10 animate-breathing">
+        <h2 className="text-5xl lg:text-7xl font-extrabold tracking-widest text-white text-center">
+          Welcome to <br />
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-white via-green-400 to-deepGreen animate-textGlow drop-shadow-lg">
+            NAIJA{" "}
+          </span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-deepGreen animate-textGlow drop-shadow-lg">
+            TECH{" "}
+          </span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-deepGreen animate-textGlow drop-shadow-lg">
+            FAIR{" "}
+          </span>
+          (Lagos Edition) 2025
+        </h2>
+        <p className="text-lg lg:text-3xl font-semibold tracking-wide text-white text-center">
+          Date: April 24th to 25th | Location: Lagos State, Nigeria
+        </p>
+      </div>
+
+      <Image
+        src={enterprenuerialImg}
+        alt="Naija Tech Fair Background"
+        layout="fill"
+        objectFit="cover"
+        className="brightness-50"
+        priority
+      />
     </div>
-  )
+  );
 }

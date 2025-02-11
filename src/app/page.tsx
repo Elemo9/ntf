@@ -1,12 +1,11 @@
-import Image from "next/image";
 import Landing from "./_components/Landing";
 import UnlockTheFutureOfInnovation from "./_components/UnlockTheFutureOfInnovation";
-import WhyAttendOTF2025 from "./_components/WhyAttendOTF2025";
+import WhyAttendOTF2025 from "./_components/WhyAttendLTF2025";
 import ForExhibitors from "./_components/ForExhibitors";
 import SponsorshipOpportunities from "./_components/SponsorshipOpportunities";
 import PitchYourProduct from "./_components/PitchYourProduct";
-import StayUpdated from "./_components/StayUpdated";
-import StudentOutcomes from "./_components/StudentOutcomes";
+//import StayUpdated from "./_components/StayUpdated";
+import EventOutcomes from "./_components/Eventoutcomes";
 import Footer from "./_components/Footer";
 import Workshop from "./_components/Workshop";
 import InterdisciplinaryProjectCompetition from "./_components/InterdisciplinaryProjectCompetition";
@@ -22,8 +21,7 @@ export default function Home() {
       <ForExhibitors />
       <SponsorshipOpportunities />
       <PitchYourProduct />
-      <StudentOutcomes />
-      <StayUpdated />
+      <EventOutcomes />
       <Footer />
     </div>
   );
