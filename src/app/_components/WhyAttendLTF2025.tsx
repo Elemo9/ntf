@@ -69,6 +69,7 @@ export default function WhyAttendLTF2025() {
         Why Attend LTF 2025
       </motion.h2>
 
+      {/* Showcase Your Innovation Section */}
       <motion.div
         variants={fadeIn("up", 0.2)}
         initial="hidden"
@@ -80,16 +81,16 @@ export default function WhyAttendLTF2025() {
           alt="Showcase Your Innovation"
           src={showcaseImg}
           className="object-cover w-full h-[350px] md:h-[500px] lg:h-[800px]"
-          width={1920} 
-          height={800} 
+          width={1920}
+          height={800}
           priority
         />
         <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center p-10 max-lg:p-5">
           <div className="max-w-2xl text-left">
-            <h2 className="text-white font-bold text-6xl max-lg:text-2xl tracking-wider uppercase bg-opacity-75 p-2 inline-block">
+            <h2 className="text-white font-bold text-4xl max-lg:text-2xl tracking-wider uppercase bg-opacity-75 p-2 inline-block">
               Showcase Your Innovation
             </h2>
-            <p className="font-normal text-lg text-white leading-8 tracking-widest mt-4 bg-opacity-75 p-4 inline-block">
+            <p className="font-normal text-lg text-white leading-8 tracking-widest mt-4 bg-opacity-75 p-4 inline-block max-lg:text-sm max-lg:leading-6">
               Join top tech companies and emerging startups as they present
               innovative solutions that could redefine industries and transform lives. 
               Students, too, will have a unique opportunity to elevate their final year 
@@ -99,6 +100,7 @@ export default function WhyAttendLTF2025() {
         </div>
       </motion.div>
 
+      {/* Sections */}
       <div className="flex flex-col items-center justify-center w-[90%] max-lg:w-[85%] max-lg:gap-10 mt-20">
         {sections.map((section, index) => (
           <div
